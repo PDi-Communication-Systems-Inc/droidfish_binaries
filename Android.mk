@@ -8,7 +8,7 @@ LOCAL_CERTIFICATE := shared
 
 # Module name should match apk name to be installed.
 LOCAL_MODULE := org.petero.droidfish-1.61-69
-LOCAL_REQUIRED_MODULES := libgtb.so libnativeutil.so
+LOCAL_REQUIRED_MODULES := libgtb.so libnativeutil.so librtb.so
 LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
